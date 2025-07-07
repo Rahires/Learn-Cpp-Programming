@@ -19,6 +19,7 @@ cout<<"\nI have 10 ekar land and 1 kg gold.....";
 };
 virtual class Fathers_Sister :public GrandFather
 {
+public :
 void wait()
 {
 cout<<"\nI Have also 10 ekar land and 1 kg gold.....";
@@ -26,6 +27,7 @@ cout<<"\nI Have also 10 ekar land and 1 kg gold.....";
 };
 class Child :public Father ,public Fathers_Sister
 {
+public:
 void Test()
 {
 cout<<"\nI have 20 ekar land and 2 kg gold.....";
