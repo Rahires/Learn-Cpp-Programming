@@ -9,7 +9,7 @@ void set()
 cout<<"\nI have 20 ekar land and 2 kg gold.....";
 }
 };
-virtual class Father : public GrandFather
+class Father : public GrandFather
 {
 public :
 void get()
@@ -17,7 +17,7 @@ void get()
 cout<<"\nI have 10 ekar land and 1 kg gold.....";
 }
 };
-virtual class Fathers_Sister :public GrandFather
+class Fathers_Sister :public GrandFather
 {
 public :
 void wait()
