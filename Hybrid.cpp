@@ -36,7 +36,7 @@ cout<<"\nI have 20 ekar land and 2 kg gold.....";
 int main()
 {
   Child C;
-C.set();
+
 C.get();
 C.wait();
 C.Test();
