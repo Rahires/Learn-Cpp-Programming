@@ -11,6 +11,7 @@ cout<<"\nI Have 6 ekar land and 2 bike....";
 };
 class Child :public Father
 {
+public:
 void sample()
 {
 cout<<"\nI Have 2 cars ...";
