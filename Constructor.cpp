@@ -3,6 +3,7 @@
 using namespace std;
 class Sample
 {
+public:
 Sample()
 {
   cout<<"\nHello World.....";
@@ -10,6 +11,6 @@ Sample()
 };
 int main()
 {
-Sample S=new Sample();
+Sample S;
 return 0;
 }
