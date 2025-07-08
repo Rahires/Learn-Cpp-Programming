@@ -6,7 +6,7 @@ class Parent
 public:
 virtual void CompleteGraduation()=0;
 };
-class Child :public Child
+class Child :public Parent
 {
 public:
 void CompleteGraduation()
