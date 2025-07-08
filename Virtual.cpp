@@ -11,6 +11,7 @@ cout<<"\nIN MBBS....";
 };
 class Child :public Parent 
 {
+public:
 void CompleteGraduation()
 {
 cout<<"\nIN BCS...";
